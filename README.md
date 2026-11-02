@@ -44,6 +44,21 @@ matsurikafetch
 
 To update, download/extract the newer source and run `./install.sh` again.
 
+## Uninstall
+
+From the project directory, run:
+
+```sh
+./uninstall.sh
+```
+
+This removes the installed executable and the `mfetch` alias, but keeps your
+configuration. To remove the configuration directory as well, explicitly run:
+
+```sh
+./uninstall.sh --purge
+```
+
 ## Build manually
 
 ```sh
