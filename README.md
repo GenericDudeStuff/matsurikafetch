@@ -1,6 +1,6 @@
 # Matsurikafetch
 
-A Linux system-information fetch utility written in Rust, inspired by Fastfetch
+A Linux system-information fetch utility written in Rust with the help of AI, inspired by Fastfetch
 and Matsurika Shinouji from *Maria†Holic*.
 
 The default output follows the layout of the supplied Fastfetch configuration:
