@@ -1,0 +1,14 @@
+[package]
+name = "matsurikafetch"
+version = "0.5.0"
+edition = "2021"
+description = "A Matsurika-inspired system information fetch tool"
+license = "MIT"
+
+[dependencies]
+sysinfo = "0.35"
+serde = { version = "1", features = ["derive"] }
+json5 = "0.4"
+dirs = "6"
+image = { version = "0.25", default-features = false, features = ["png"] }
+viuer = { version = "0.11", features = ["icy_sixel"] }
